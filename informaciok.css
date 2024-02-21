@@ -1,0 +1,15 @@
+.body {
+    background-color: #FBF0D4;
+}
+
+.div {
+    width: 300px;
+    border: 15px solid #FFF8E5;
+    padding: 50px;
+    margin: 20px;
+}
+
+.p1 {
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
