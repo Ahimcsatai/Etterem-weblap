@@ -1,15 +1,21 @@
-.body {
+body{
     background-color: #FBF0D4;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 2cm;
 }
 
-.div {
-    width: 300px;
-    border: 15px solid #FFF8E5;
-    padding: 50px;
-    margin: 20px;
-}
-
-.p1 {
+.h1{
     margin-left: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+table, tr, td{
+    text-align: left;
+    background-color: #FFF8E5;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
 }
