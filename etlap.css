@@ -1,3 +1,12 @@
 body{
     background-color:rgba(251, 240, 212, 1);
 }
+
+.image-container {
+    display: flex;
+}
+.image-container img {
+    margin-right: 10px;
+}
+
+
