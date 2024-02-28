@@ -18,3 +18,17 @@ nav a:first-child img{
     width: 50px;
     display: inline-block;
 }
+
+
+
+.footer{
+    background-color: #CE7777;
+    color: #fff;
+}
+footer li{
+    list-style-type: none;
+}
+.labszov{
+    text-align: justify;
+    text-justify: inter-word;
+}
