@@ -1,13 +1,46 @@
+nav {
+    background-color: #CE7777;
+    padding: 8px;
+}
+nav a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:first-child{
+    font-size: 1.5em;
+}
+nav a:first-child img{
+    width: 50px;
+    display: inline-block;
+}
+
+
+
+.footer{
+    background-color: #CE7777;
+    color: #fff;
+}
+footer li{
+    list-style-type: none;
+}
+.labszov{
+    text-align: justify;
+    text-justify: inter-word;
+}
 body{
     background-color: #FBF0D4;
     margin-left: 1cm;
     margin-right: 1cm;
     margin-top: 2cm;
+    font-size: 25px;
 }
 
 .h1{
     margin-left: 20px;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 table, tr, td{
@@ -28,4 +61,18 @@ div{
     background-color: #FFF8E5;
     padding-left: 1px;
     padding-right: 1px;
+}
+
+#cimek{
+    vertical-align: top;
+
+}
+
+#beszall{
+    text-align: justify;
+}
+
+#infok{
+    vertical-align: bottom;
+    
 }
