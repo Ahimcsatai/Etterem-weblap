@@ -10,3 +10,14 @@ body{
 }
 
 
+ 
+
+    .image-container {
+        text-align: center; /* A szöveg középre igazítása */
+    }
+    .image-container img {
+        
+    }
+        /* Egyéb kép stílusok (pl. méret, háttérszín) */
+    
+
