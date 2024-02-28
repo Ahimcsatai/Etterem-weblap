@@ -1,26 +1,20 @@
 body {
-    background-color: #FBEFDB;
+    background-color: #FBF0D4;
 }
-
 nav {
-    background-color: #D48E24;
-    padding: 15px;
+    background-color: #CE7777;
+    padding: 8px;
 }
-
 nav a{
     color: white;
     margin: 15px;
     text-decoration: none;
+    text-align: center;
 }
-
-nav a:hover{
-    color: white;
-    text-decoration: none;
-}
-
 nav a:first-child{
     font-size: 1.5em;
 }
 nav a:first-child img{
-    width: 40px;
+    width: 50px;
+    display: inline-block;
 }
