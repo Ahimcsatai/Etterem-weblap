@@ -28,7 +28,11 @@ nav a:first-child img{
 footer li{
     list-style-type: none;
 }
-.labszov{
+#lablecszoveg{
     text-align: justify;
-    text-justify: inter-word;
+  text-justify: inter-word;
+}
+.asd{
+    
+    padding: 200cm;
 }
