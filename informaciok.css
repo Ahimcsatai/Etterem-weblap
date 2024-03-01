@@ -31,26 +31,28 @@ footer li{
 }
 body{
     background-color: #FBF0D4;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-top: 2cm;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.h1{
-    margin-left: 20px;
+h1{
     font-family: 'Times New Roman', Times, serif;
 
 }
 
 table, tr, td{
     text-align: left;
-    background-color: #FBF0D4;
+    background-color: #FFF8E5;
+}
+tr, td{
+    border: 0.1cm solid black;
+    vertical-align: text-top;
+
+
 }
 
 ul{
     text-align: center;
-    background-color: #FFF8E5;
 }
 
 li{
@@ -58,13 +60,16 @@ li{
 }
 
 div{
-    background-color: #FFF8E5;
+
     padding-left: 1px;
     padding-right: 1px;
 }
 
 #cimek{
+    text-align: center;
+    vertical-align: text-top;
     vertical-align: top;
+    padding-right: 1cm;
 
 }
 
@@ -74,5 +79,6 @@ div{
 
 #infok{
     vertical-align: bottom;
+    padding-left: 1cm;
     
 }
