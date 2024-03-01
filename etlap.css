@@ -4,20 +4,34 @@ body{
 
 .image-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.image-container img {
-    margin-right: 10px;
+
+.image-container div {
+    flex: 0 0 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.uniform-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 
- 
-
-    .image-container {
-        text-align: center; /* A szöveg középre igazítása */
-    }
-    .image-container img {
-        
-    }
-        /* Egyéb kép stílusok (pl. méret, háttérszín) */
     
+.uniform-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+p {
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 370%;
+}
 
