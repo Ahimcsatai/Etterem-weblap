@@ -1,0 +1,19 @@
+body {
+    background-color: #FBF0D4;
+}
+nav {
+    background-color: #CE7777;
+    padding: 8px;
+}
+nav a{
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.footer{
+    background-color: #CE7777;
+    color: #fff;
+    text-align: center;
+}
