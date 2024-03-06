@@ -7,35 +7,46 @@ nav {
 }
 nav a{
     margin: 15px;
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
 }
 .footer{
     background-color: #CE7777;
-    color: #fff;
+    color: black;
     text-align: center;
 }
 #cim{
     text-align: center;
     font-size: 30px;
 }
+#elokep{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
 #legutobbi{
     text-align: center;
-    font-style: italic;    
+    font-style: italic;   
 }
 #legutobbicim{
     text-align: center;
     font-size: large;
 
 }
-#k1{
-    text-align: left;
-}
-#k2{
+#sefacim{
+    font-size: large;
     text-align: center;
 }
-#k3{
-    text-align: right;
+#sefakep{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#rolunkszoveg{
+    text-align: justify; 
+    font-style: italic; 
 }
