@@ -7,7 +7,7 @@ nav {
 }
 nav a{
     margin: 15px;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
@@ -22,6 +22,20 @@ nav a{
     font-size: 30px;
 }
 #legutobbi{
+    text-align: center;
+    font-style: italic;    
+}
+#legutobbicim{
+    text-align: center;
+    font-size: large;
+
+}
+#k1{
+    text-align: left;
+}
+#k2{
+    text-align: center;
+}
+#k3{
     text-align: right;
-    
 }
