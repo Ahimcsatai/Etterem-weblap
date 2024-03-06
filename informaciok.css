@@ -37,15 +37,16 @@ body{
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-
+    background-color: #FFF8E5;
 }
 
 table, tr, td{
     text-align: left;
-    background-color: #FFF8E5;
+    background-color: #FBF0D4;
+    border:  #FBF0D4;
 }
 tr, td{
-    border: 0.1cm solid black;
+    
     vertical-align: text-top;
 
 
@@ -67,10 +68,8 @@ div{
 
 #cimek{
     text-align: center;
-    vertical-align: text-top;
-    vertical-align: top;
+    vertical-align: middle;
     padding-right: 1cm;
-
 }
 
 #beszall{
@@ -78,7 +77,9 @@ div{
 }
 
 #infok{
-    vertical-align: bottom;
+    vertical-align: middle;
     padding-left: 1cm;
+    background-color: #FFF8E5;
+    border: 20px solid #FFF8E5;
     
 }
