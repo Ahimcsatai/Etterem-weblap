@@ -3,7 +3,7 @@ nav {
     padding: 8px;
 }
 nav a{
-    color: white;
+    color: black;
     margin: 15px;
     text-decoration: none;
     text-align: center;
@@ -20,13 +20,14 @@ nav a:first-child img{
 
 .footer{
     background-color: #CE7777;
-    color: #fff;
+    color: black;
 }
 footer li{
     list-style-type: none;
 }
 .labszov{
     text-align: justify;
+    text-align: center;
     text-justify: inter-word;
 }
 body{
