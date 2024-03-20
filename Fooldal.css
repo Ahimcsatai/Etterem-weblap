@@ -36,25 +36,21 @@ nav a{
     font-size: large;
 }
 #sefajanlata{
-    padding-left: 1px;
+    margin-left: 100%;
 }
 #sefacim{
     font-size: large;
 }
 #sefakep{
-    width: 100%;
-}
-#sefalso{
-    text-align: center;
+    width: 130%;
 }
 #rolunk{
-    padding-left: 40%;
+    
 }
 #rolunkcim{
     font-size: large;
 }
 #rolunkszoveg{
     text-align: left;
-    font-style: italic; 
-    
+    font-style: italic;
 }
