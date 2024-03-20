@@ -34,19 +34,27 @@ nav a{
 #legutobbicim{
     text-align: center;
     font-size: large;
-
+}
+#sefajanlata{
+    padding-left: 1px;
 }
 #sefacim{
     font-size: large;
-    text-align: center;
 }
 #sefakep{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 100%;
+}
+#sefalso{
+    text-align: center;
+}
+#rolunk{
+    padding-left: 40%;
+}
+#rolunkcim{
+    font-size: large;
 }
 #rolunkszoveg{
-    text-align: justify; 
+    text-align: left;
     font-style: italic; 
+    
 }
