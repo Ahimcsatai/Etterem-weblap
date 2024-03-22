@@ -35,7 +35,7 @@ table, tr, td{
 tr, td{
     
     vertical-align: text-top;
-    
+
 
 
 }
@@ -69,5 +69,9 @@ div{
     padding-left: 1cm;
     background-color: #FFF8E5;
     border: 20px solid #FFF8E5;
+    
+}
+
+@media (max-width: 200px) {
     
 }
