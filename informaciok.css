@@ -1,6 +1,7 @@
-@media only screen and (max-width: 400px) {
-    h1 {
-        color: red;
+@media (min-width: 600px) {
+    .container-fluid {
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 nav {
@@ -51,13 +52,6 @@ table, tr, td{
     text-align: left;
     background-color: #FBF0D4;
     border:  #FBF0D4;
-}
-tr, td{
-    
-    vertical-align: text-top;
-
-
-
 }
 
 ul{
@@ -110,6 +104,11 @@ div{
     background-color: #FFF8E5;
     border: 20px solid #FFF8E5;
 }
+
+.infoelhelyezes {
+    text-align: justify;
+}
+
 #nyitvatartas {
     padding-left: 1cm;
     background-color: #FFF8E5;
@@ -121,12 +120,12 @@ div{
     text-align: center;
     padding-right: 1cm;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #FFF8E5;
 }
 
 #beszall{
     text-align: justify;
 }
-#k {
-    background-color: red;
+#cimhatter {
+    background-color: #FFF8E5;
+    font-size: 40px;
 }
