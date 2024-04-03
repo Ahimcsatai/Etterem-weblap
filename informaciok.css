@@ -1,6 +1,7 @@
-@media only screen and (max-width: 400px) {
-    div {
-        color: red;
+@media (min-width: 600px) {
+    .container-fluid {
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 nav {
