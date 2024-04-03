@@ -33,7 +33,14 @@
     object-fit: cover;
 }
 
-
+@media screen and (max-width: 1000px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #FBF0D4;
+        padding: 10px;
+    }
+}
 
 
 
