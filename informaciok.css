@@ -3,8 +3,6 @@
         color: red;
     }
 }
-
-
 nav {
     background-color: #CE7777;
     padding: 8px;
@@ -16,7 +14,22 @@ nav a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
 }
-
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menupontok {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #CE7777;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    display:inline-block;
+}
+.menu li:hover {
+    background-color: #c55c5c;
+}
 
 .footer{
     background-color: #CE7777;
