@@ -35,9 +35,9 @@
 
 
 
-
-
-
+nav.container-fluid{
+    text-align: center;
+}
 nav {
     background-color: #CE7777;
     padding: 8px;
