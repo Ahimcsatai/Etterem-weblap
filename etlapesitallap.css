@@ -1,7 +1,10 @@
 body {
-    background-color: rgba(251, 240, 212, 1);
+    background-color: #FBF0D4;
 }
-nav {
+nav.container-fluid{
+    text-align: center;
+}
+nav {   
     background-color: #CE7777;
     padding: 8px;
 }
@@ -24,6 +27,18 @@ nav a{
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     display:inline-block;
+}
+.menu li:hover {
+    background-color: #c55c5c;
+}
+.footer{
+    background-color: #CE7777;
+    color: black;
+    text-align: center;
+    font-size: 100%;
+}
+.lablecszov{
+    color: black;
 }
 .menu li:hover {
     background-color: #c55c5c;
@@ -60,12 +75,6 @@ p {
 h1 {
     font-size: 370%;
 }
-.footer{
-    background-color: #CE7777;
-    color: black;
-    text-align: center;
-    font-size: 7px;
-}
 
 @media screen and (max-width: 360px) {
     .image-container div {
@@ -82,3 +91,4 @@ h1 {
         flex: 0 0 33.33%;
     }
 }
+

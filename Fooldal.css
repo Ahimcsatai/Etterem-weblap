@@ -35,9 +35,9 @@ nav a{
     background-color: #CE7777;
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 100%;
 }
-#cim{
+.cim{
     text-align: center;
     font-size: 30px;
 }
@@ -85,7 +85,8 @@ nav a{
     font-size: 20px;
     text-align: center;
 }
-@media screen and (max-width: 1000px){
+
+@media screen and (max-width: 900px){
     .grid-container {
         display: grid;
         grid-template-columns: auto;
