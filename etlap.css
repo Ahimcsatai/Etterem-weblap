@@ -60,12 +60,16 @@ p {
 h1 {
     font-size: 370%;
 }
-@media (min-width: 600px) {
-    .container-fluid {
+@media screen and (min-width: 360px) {
+    .image-container {
         flex-direction: row;
         justify-content: space-around;
+        grid-template-columns: auto;
     }
 }
-footer{
-    color:black
+.footer{
+    background-color: #CE7777;
+    color: black;
+    text-align: center;
+    font-size: 7px;
 }
