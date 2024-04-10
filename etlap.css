@@ -42,12 +42,12 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 .image-container div {
     flex: 0 0 30%;
     text-align: center;
     margin-bottom: 20px;
+ 
 }
 .uniform-image {
     width: 100%;
@@ -60,16 +60,25 @@ p {
 h1 {
     font-size: 370%;
 }
-@media screen and (min-width: 360px) {
-    .image-container {
-        flex-direction: row;
-        justify-content: space-around;
-        grid-template-columns: auto;
-    }
-}
 .footer{
     background-color: #CE7777;
     color: black;
     text-align: center;
     font-size: 7px;
+}
+
+@media screen and (max-width: 360px) {
+    .image-container div {
+        flex: 0 0 100%;
+    }
+}
+@media screen and (min-width: 361px) and (max-width: 650px) {
+    .image-container div {
+        flex: 0 0 50%;
+    }
+}
+@media screen and (min-width: 651px) {
+    .image-container div {
+        flex: 0 0 33.33%;
+    }
 }
