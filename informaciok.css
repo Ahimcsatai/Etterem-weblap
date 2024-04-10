@@ -148,6 +148,9 @@ div{
         font-size: 70%;
         
     }
+    div{
+        width: 100%;
+    }
 }
 
 .info {
