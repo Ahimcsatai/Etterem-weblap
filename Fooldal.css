@@ -1,43 +1,25 @@
 body {
     background-color: #FBF0D4;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
 }
-nav.container-fluid{
-    text-align: center;
-}
-nav {
-    background-color: #CE7777;
-    padding: 8px;
-}
-nav a{
-    margin: 15px;
-    color: black;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-}
-#ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menupontok {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #CE7777;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    display:inline-block;
-}
-.menu li:hover {
-    background-color: #c55c5c;
-}
+
 .footer{
     background-color: #CE7777;
     color: black;
     text-align: center;
     font-size: 100%;
 }
-.cim{
+#cim{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+#motto{
     text-align: center;
     font-size: 30px;
 }
@@ -92,5 +74,10 @@ nav a{
         grid-template-columns: auto;
         background-color: #FBF0D4;
         padding: 10px;
+    }
+}
+@media screen and (max-width: 745px){
+    #cim{ 
+        font-size: 40px;
     }
 }
